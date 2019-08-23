@@ -7,6 +7,11 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 Astronaut.destroy_all
+Mission.destroy_all
 
 neil = Astronaut.create(name: "Neil Armstrong", age: 37, job: "Commander")
 buzz = Astronaut.create(name: "Buzz Aldrin", age: 31, job: "Test Pilot")
+
+apollo = Mission.create(name: "Apollo 13")
+capricorn = Mission.create(name: "Capricorn 4")
+gemini = Mission.create(name: "Gemini 7")
