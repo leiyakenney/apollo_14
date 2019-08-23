@@ -9,3 +9,4 @@
 Astronaut.destroy_all
 
 neil = Astronaut.create(name: "Neil Armstrong", age: 37, job: "Commander")
+buzz = Astronaut.create(name: "Buzz Aldrin", age: 31, job: "Test Pilot")
